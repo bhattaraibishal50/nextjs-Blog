@@ -13,10 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.6",
+    "date-fn": "^0.0.2",
+    "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "remark": "^12.0.1",
+    "remark-html": "^12.0.0",
     "scss": "^0.2.4"
   }
 }

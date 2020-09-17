@@ -72,3 +72,11 @@ function Profile() {
   return <div>hello {data.name}!</div>
 }
 ```
+# Dynamic Routes
+## How to statically geneate page with dynamic rotue
+if you want to satically genrate a page at path called /posts/<id> where <id> can be dynamic, htne
+<br>
+crate a page at /pages/posts/[id].js which must contain:
+- a React component 
+- getStaticPath which returns an array of possuble values for id
+- getStaticProps which fetches necessary data for the post with id
