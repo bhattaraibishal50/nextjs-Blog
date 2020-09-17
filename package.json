@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.6",
+    "gray-matter": "^4.0.2",
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
